@@ -1,0 +1,14 @@
+id_auto                 INT             UNSIGNED    AUTO_INCREMENT
+marca                   VARCHAR(50)                 NOT NULL
+modello                 VARCHAR(50)                 NOT NULL
+anno_immatricolazione   YEAR                        NOT NULL
+chilometraggio          INT             UNSIGNED    NOT NULL
+colore                  VARCHAR(30)
+tipo_carburante         VARCHAR(30)                 NOT NULL
+tipo_di_cambio          VARCHAR(30)                 NOT NULL
+cilindrata              INT             UNSIGNED
+potenza                 INT             UNSIGNED
+classe_inquinamento     VARCHAR(10)                 NOT NULL
+prezzo                  DECIMAL(10, 2)              NOT NULL
+descrizione             TEXT
+data_inizio_vendita     DATE                        NOT NULL 
